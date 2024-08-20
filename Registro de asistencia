@@ -1,0 +1,28 @@
+package org.example;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Scanner;
+
+public class Registrodeasistencia {
+    List<Persona> p= new ArrayList<Persona>();
+    public static void main(String[] args) {
+        registrarasistencia();
+
+    }
+    public void registrarasistencia() {
+        Scanner sc = new Scanner(System.in);
+        String exisAlumnos="";
+        System.out.println("Registrar Asistencia a curso POO: ");
+        do {
+            System.out.println("Ingrese el nombre Est: ");
+            String nombre = sc.nextLine();
+            System.out.println("\n");
+            System.out.println("Ingrese P=Presente, F=Falta: ");
+            String presente = sc.nextLine();
+            System.out.println("\n");
+            p.add(new Persona)
+
+        }
+    }
+}
